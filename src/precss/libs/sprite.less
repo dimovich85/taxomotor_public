@@ -1,0 +1,352 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@b1-ico1-name: 'b1_ico1';
+@b1-ico1-x: 292px;
+@b1-ico1-y: 0px;
+@b1-ico1-offset-x: -292px;
+@b1-ico1-offset-y: 0px;
+@b1-ico1-width: 63px;
+@b1-ico1-height: 65px;
+@b1-ico1-total-width: 401px;
+@b1-ico1-total-height: 346px;
+@b1-ico1-image: '../img/sprite.png';
+@b1-ico1: 292px 0px -292px 0px 63px 65px 401px 346px '../img/sprite.png' 'b1_ico1';
+@b1-ico2-name: 'b1_ico2';
+@b1-ico2-x: 0px;
+@b1-ico2-y: 220px;
+@b1-ico2-offset-x: 0px;
+@b1-ico2-offset-y: -220px;
+@b1-ico2-width: 70px;
+@b1-ico2-height: 60px;
+@b1-ico2-total-width: 401px;
+@b1-ico2-total-height: 346px;
+@b1-ico2-image: '../img/sprite.png';
+@b1-ico2: 0px 220px 0px -220px 70px 60px 401px 346px '../img/sprite.png' 'b1_ico2';
+@b1-ico3-name: 'b1_ico3';
+@b1-ico3-x: 81px;
+@b1-ico3-y: 75px;
+@b1-ico3-offset-x: -81px;
+@b1-ico3-offset-y: -75px;
+@b1-ico3-width: 64px;
+@b1-ico3-height: 64px;
+@b1-ico3-total-width: 401px;
+@b1-ico3-total-height: 346px;
+@b1-ico3-image: '../img/sprite.png';
+@b1-ico3: 81px 75px -81px -75px 64px 64px 401px 346px '../img/sprite.png' 'b1_ico3';
+@b1-ico4-name: 'b1_ico4';
+@b1-ico4-x: 153px;
+@b1-ico4-y: 72px;
+@b1-ico4-offset-x: -153px;
+@b1-ico4-offset-y: -72px;
+@b1-ico4-width: 65px;
+@b1-ico4-height: 67px;
+@b1-ico4-total-width: 401px;
+@b1-ico4-total-height: 346px;
+@b1-ico4-image: '../img/sprite.png';
+@b1-ico4: 153px 72px -153px -72px 65px 67px 401px 346px '../img/sprite.png' 'b1_ico4';
+@b1-ico5-name: 'b1_ico5';
+@b1-ico5-x: 292px;
+@b1-ico5-y: 135px;
+@b1-ico5-offset-x: -292px;
+@b1-ico5-offset-y: -135px;
+@b1-ico5-width: 52px;
+@b1-ico5-height: 68px;
+@b1-ico5-total-width: 401px;
+@b1-ico5-total-height: 346px;
+@b1-ico5-image: '../img/sprite.png';
+@b1-ico5: 292px 135px -292px -135px 52px 68px 401px 346px '../img/sprite.png' 'b1_ico5';
+@b1-ico6-name: 'b1_ico6';
+@b1-ico6-x: 0px;
+@b1-ico6-y: 145px;
+@b1-ico6-offset-x: 0px;
+@b1-ico6-offset-y: -145px;
+@b1-ico6-width: 65px;
+@b1-ico6-height: 70px;
+@b1-ico6-total-width: 401px;
+@b1-ico6-total-height: 346px;
+@b1-ico6-image: '../img/sprite.png';
+@b1-ico6: 0px 145px 0px -145px 65px 70px 401px 346px '../img/sprite.png' 'b1_ico6';
+@b2-ico1-name: 'b2_ico1';
+@b2-ico1-x: 53px;
+@b2-ico1-y: 285px;
+@b2-ico1-offset-x: -53px;
+@b2-ico1-offset-y: -285px;
+@b2-ico1-width: 48px;
+@b2-ico1-height: 52px;
+@b2-ico1-total-width: 401px;
+@b2-ico1-total-height: 346px;
+@b2-ico1-image: '../img/sprite.png';
+@b2-ico1: 53px 285px -53px -285px 48px 52px 401px 346px '../img/sprite.png' 'b2_ico1';
+@b2-ico2-name: 'b2_ico2';
+@b2-ico2-x: 81px;
+@b2-ico2-y: 0px;
+@b2-ico2-offset-x: -81px;
+@b2-ico2-offset-y: 0px;
+@b2-ico2-width: 67px;
+@b2-ico2-height: 70px;
+@b2-ico2-total-width: 401px;
+@b2-ico2-total-height: 346px;
+@b2-ico2-image: '../img/sprite.png';
+@b2-ico2: 81px 0px -81px 0px 67px 70px 401px 346px '../img/sprite.png' 'b2_ico2';
+@b2-ico3-name: 'b2_ico3';
+@b2-ico3-x: 70px;
+@b2-ico3-y: 145px;
+@b2-ico3-offset-x: -70px;
+@b2-ico3-offset-y: -145px;
+@b2-ico3-width: 112px;
+@b2-ico3-height: 38px;
+@b2-ico3-total-width: 401px;
+@b2-ico3-total-height: 346px;
+@b2-ico3-image: '../img/sprite.png';
+@b2-ico3: 70px 145px -70px -145px 112px 38px 401px 346px '../img/sprite.png' 'b2_ico3';
+@b2-ico4-name: 'b2_ico4';
+@b2-ico4-x: 0px;
+@b2-ico4-y: 0px;
+@b2-ico4-offset-x: 0px;
+@b2-ico4-offset-y: 0px;
+@b2-ico4-width: 76px;
+@b2-ico4-height: 65px;
+@b2-ico4-total-width: 401px;
+@b2-ico4-total-height: 346px;
+@b2-ico4-image: '../img/sprite.png';
+@b2-ico4: 0px 0px 0px 0px 76px 65px 401px 346px '../img/sprite.png' 'b2_ico4';
+@b2-ico5-name: 'b2_ico5';
+@b2-ico5-x: 0px;
+@b2-ico5-y: 285px;
+@b2-ico5-offset-x: 0px;
+@b2-ico5-offset-y: -285px;
+@b2-ico5-width: 48px;
+@b2-ico5-height: 61px;
+@b2-ico5-total-width: 401px;
+@b2-ico5-total-height: 346px;
+@b2-ico5-image: '../img/sprite.png';
+@b2-ico5: 0px 285px 0px -285px 48px 61px 401px 346px '../img/sprite.png' 'b2_ico5';
+@b2-ico6-name: 'b2_ico6';
+@b2-ico6-x: 0px;
+@b2-ico6-y: 70px;
+@b2-ico6-offset-x: 0px;
+@b2-ico6-offset-y: -70px;
+@b2-ico6-width: 70px;
+@b2-ico6-height: 70px;
+@b2-ico6-total-width: 401px;
+@b2-ico6-total-height: 346px;
+@b2-ico6-image: '../img/sprite.png';
+@b2-ico6: 0px 70px 0px -70px 70px 70px 401px 346px '../img/sprite.png' 'b2_ico6';
+@b3-ico1-name: 'b3_ico1';
+@b3-ico1-x: 292px;
+@b3-ico1-y: 208px;
+@b3-ico1-offset-x: -292px;
+@b3-ico1-offset-y: -208px;
+@b3-ico1-width: 50px;
+@b3-ico1-height: 66px;
+@b3-ico1-total-width: 401px;
+@b3-ico1-total-height: 346px;
+@b3-ico1-image: '../img/sprite.png';
+@b3-ico1: 292px 208px -292px -208px 50px 66px 401px 346px '../img/sprite.png' 'b3_ico1';
+@b3-ico2-name: 'b3_ico2';
+@b3-ico2-x: 226px;
+@b3-ico2-y: 145px;
+@b3-ico2-offset-x: -226px;
+@b3-ico2-offset-y: -145px;
+@b3-ico2-width: 47px;
+@b3-ico2-height: 66px;
+@b3-ico2-total-width: 401px;
+@b3-ico2-total-height: 346px;
+@b3-ico2-image: '../img/sprite.png';
+@b3-ico2: 226px 145px -226px -145px 47px 66px 401px 346px '../img/sprite.png' 'b3_ico2';
+@b3-ico3-name: 'b3_ico3';
+@b3-ico3-x: 226px;
+@b3-ico3-y: 0px;
+@b3-ico3-offset-x: -226px;
+@b3-ico3-offset-y: 0px;
+@b3-ico3-width: 61px;
+@b3-ico3-height: 69px;
+@b3-ico3-total-width: 401px;
+@b3-ico3-total-height: 346px;
+@b3-ico3-image: '../img/sprite.png';
+@b3-ico3: 226px 0px -226px 0px 61px 69px 401px 346px '../img/sprite.png' 'b3_ico3';
+@b3-ico4-name: 'b3_ico4';
+@b3-ico4-x: 226px;
+@b3-ico4-y: 74px;
+@b3-ico4-offset-x: -226px;
+@b3-ico4-offset-y: -74px;
+@b3-ico4-width: 49px;
+@b3-ico4-height: 66px;
+@b3-ico4-total-width: 401px;
+@b3-ico4-total-height: 346px;
+@b3-ico4-image: '../img/sprite.png';
+@b3-ico4: 226px 74px -226px -74px 49px 66px 401px 346px '../img/sprite.png' 'b3_ico4';
+@b3-ico5-name: 'b3_ico5';
+@b3-ico5-x: 153px;
+@b3-ico5-y: 0px;
+@b3-ico5-offset-x: -153px;
+@b3-ico5-offset-y: 0px;
+@b3-ico5-width: 68px;
+@b3-ico5-height: 67px;
+@b3-ico5-total-width: 401px;
+@b3-ico5-total-height: 346px;
+@b3-ico5-image: '../img/sprite.png';
+@b3-ico5: 153px 0px -153px 0px 68px 67px 401px 346px '../img/sprite.png' 'b3_ico5';
+@b3-ico6-name: 'b3_ico6';
+@b3-ico6-x: 292px;
+@b3-ico6-y: 70px;
+@b3-ico6-offset-x: -292px;
+@b3-ico6-offset-y: -70px;
+@b3-ico6-width: 62px;
+@b3-ico6-height: 60px;
+@b3-ico6-total-width: 401px;
+@b3-ico6-total-height: 346px;
+@b3-ico6-image: '../img/sprite.png';
+@b3-ico6: 292px 70px -292px -70px 62px 60px 401px 346px '../img/sprite.png' 'b3_ico6';
+@b4-ico1-name: 'b4_ico1';
+@b4-ico1-x: 106px;
+@b4-ico1-y: 285px;
+@b4-ico1-offset-x: -106px;
+@b4-ico1-offset-y: -285px;
+@b4-ico1-width: 46px;
+@b4-ico1-height: 48px;
+@b4-ico1-total-width: 401px;
+@b4-ico1-total-height: 346px;
+@b4-ico1-image: '../img/sprite.png';
+@b4-ico1: 106px 285px -106px -285px 46px 48px 401px 346px '../img/sprite.png' 'b4_ico1';
+@b4-ico2-name: 'b4_ico2';
+@b4-ico2-x: 75px;
+@b4-ico2-y: 220px;
+@b4-ico2-offset-x: -75px;
+@b4-ico2-offset-y: -220px;
+@b4-ico2-width: 54px;
+@b4-ico2-height: 47px;
+@b4-ico2-total-width: 401px;
+@b4-ico2-total-height: 346px;
+@b4-ico2-image: '../img/sprite.png';
+@b4-ico2: 75px 220px -75px -220px 54px 47px 401px 346px '../img/sprite.png' 'b4_ico2';
+@b4-ico3-name: 'b4_ico3';
+@b4-ico3-x: 360px;
+@b4-ico3-y: 55px;
+@b4-ico3-offset-x: -360px;
+@b4-ico3-offset-y: -55px;
+@b4-ico3-width: 39px;
+@b4-ico3-height: 51px;
+@b4-ico3-total-width: 401px;
+@b4-ico3-total-height: 346px;
+@b4-ico3-image: '../img/sprite.png';
+@b4-ico3: 360px 55px -360px -55px 39px 51px 401px 346px '../img/sprite.png' 'b4_ico3';
+@b4-ico4-name: 'b4_ico4';
+@b4-ico4-x: 360px;
+@b4-ico4-y: 111px;
+@b4-ico4-offset-x: -360px;
+@b4-ico4-offset-y: -111px;
+@b4-ico4-width: 27px;
+@b4-ico4-height: 47px;
+@b4-ico4-total-width: 401px;
+@b4-ico4-total-height: 346px;
+@b4-ico4-image: '../img/sprite.png';
+@b4-ico4: 360px 111px -360px -111px 27px 47px 401px 346px '../img/sprite.png' 'b4_ico4';
+@b4-ico5-name: 'b4_ico5';
+@b4-ico5-x: 134px;
+@b4-ico5-y: 220px;
+@b4-ico5-offset-x: -134px;
+@b4-ico5-offset-y: -220px;
+@b4-ico5-width: 46px;
+@b4-ico5-height: 40px;
+@b4-ico5-total-width: 401px;
+@b4-ico5-total-height: 346px;
+@b4-ico5-image: '../img/sprite.png';
+@b4-ico5: 134px 220px -134px -220px 46px 40px 401px 346px '../img/sprite.png' 'b4_ico5';
+@b4-ico6-name: 'b4_ico6';
+@b4-ico6-x: 360px;
+@b4-ico6-y: 0px;
+@b4-ico6-offset-x: -360px;
+@b4-ico6-offset-y: 0px;
+@b4-ico6-width: 41px;
+@b4-ico6-height: 50px;
+@b4-ico6-total-width: 401px;
+@b4-ico6-total-height: 346px;
+@b4-ico6-image: '../img/sprite.png';
+@b4-ico6: 360px 0px -360px 0px 41px 50px 401px 346px '../img/sprite.png' 'b4_ico6';
+@spritesheet-width: 401px;
+@spritesheet-height: 346px;
+@spritesheet-image: '../img/sprite.png';
+@spritesheet-sprites: @b1-ico1 @b1-ico2 @b1-ico3 @b1-ico4 @b1-ico5 @b1-ico6 @b2-ico1 @b2-ico2 @b2-ico3 @b2-ico4 @b2-ico5 @b2-ico6 @b3-ico1 @b3-ico2 @b3-ico3 @b3-ico4 @b3-ico5 @b3-ico6 @b4-ico1 @b4-ico2 @b4-ico3 @b4-ico4 @b4-ico5 @b4-ico6;
+@spritesheet: 401px 346px '../img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
